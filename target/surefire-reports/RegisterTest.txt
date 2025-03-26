@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: RegisterTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 19.035 sec <<< FAILURE!
+RegisterTest.testLogusername()  Time elapsed: 0.041 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.logusername()" because "instance" is null
+	at RegisterTest.testLogusername(RegisterTest.java:44)
+
+RegisterTest.testRegisterUser()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.registerUser()" because "instance" is null
+	at RegisterTest.testRegisterUser(RegisterTest.java:126)
+
+RegisterTest.testSetUsername()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.setUsername(String)" because "instance" is null
+	at RegisterTest.testSetUsername(RegisterTest.java:58)
+
+RegisterTest.testLogpassword()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.logpassword()" because "instance" is null
+	at RegisterTest.testLogpassword(RegisterTest.java:71)
+
+RegisterTest.testSetpasswords()  Time elapsed: 18.05 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.length()" because "password" is null
+	at Register.Setpasswords(Register.java:60)
+	at RegisterTest.testSetpasswords(RegisterTest.java:33)
+
+RegisterTest.testSetusername()  Time elapsed: 0.917 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.length()" because "username" is null
+	at Register.Setusername(Register.java:42)
+	at RegisterTest.testSetusername(RegisterTest.java:18)
+
+RegisterTest.testSetPassword()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.setPassword(String)" because "instance" is null
+	at RegisterTest.testSetPassword(RegisterTest.java:85)
+
+RegisterTest.testLoginUser()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.loginUser()" because "instance" is null
+	at RegisterTest.testLoginUser(RegisterTest.java:140)
+
+RegisterTest.testCheckUserName()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.checkUserName()" because "instance" is null
+	at RegisterTest.testCheckUserName(RegisterTest.java:98)
+
+RegisterTest.testCheckPasswordComplexity()  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.checkPasswordComplexity()" because "instance" is null
+	at RegisterTest.testCheckPasswordComplexity(RegisterTest.java:112)
+
+RegisterTest.testReturnLoginStatus()  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.returnLoginStatus()" because "instance" is null
+	at RegisterTest.testReturnLoginStatus(RegisterTest.java:154)
+

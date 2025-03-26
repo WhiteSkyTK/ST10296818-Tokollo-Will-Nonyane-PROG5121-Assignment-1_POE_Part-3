@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: POETest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.33 sec <<< FAILURE!
+POETest.testSetpasswords()  Time elapsed: 8.216 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Password12_ ==> expected: <Password meets complexity requirements> but was: <Ch&&sec@ke99!>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)
+	at POETest.testSetpasswords(POETest.java:17)
+
+POETest.testSetusername()  Time elapsed: 4.112 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: _ ==> expected: <Username correctly formatted> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)
+	at POETest.testSetusername(POETest.java:10)
+

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: NewEmptyJUnitTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 3, Skipped: 0, Time elapsed: 59.244 s <<< FAILURE! - in NewEmptyJUnitTest
+testPasswordDoesNotMeetComplexityRequirements  Time elapsed: 17.064 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Password is not correctly formatted, please ensure that the password contains at least 8 characters, a capital letter, a number and a special character.> but was: <Password12_>
+	at NewEmptyJUnitTest.testPasswordDoesNotMeetComplexityRequirements(NewEmptyJUnitTest.java:32)
+
+testUsernameIncorrectlyFormatted  Time elapsed: 4.644 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Username is not correctly formatted, please ensure that your username contains an underscore and is no more than 5 characters in length.> but was: <_>
+	at NewEmptyJUnitTest.testUsernameIncorrectlyFormatted(NewEmptyJUnitTest.java:18)
+
+testLoginFailed  Time elapsed: 19.362 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.length()" because "this.username" is null
+	at NewEmptyJUnitTest.testLoginFailed(NewEmptyJUnitTest.java:59)
+
+testLoginSuccessful  Time elapsed: 11.154 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.length()" because "this.username" is null
+	at NewEmptyJUnitTest.testLoginSuccessful(NewEmptyJUnitTest.java:44)
+
+testUsernameCorrectlyFormatted  Time elapsed: 3.057 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "Login.getUsername()" is null
+	at NewEmptyJUnitTest.testUsernameCorrectlyFormatted(NewEmptyJUnitTest.java:11)
+
+testPasswordMeetsComplexityRequirements  Time elapsed: 3.957 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Password successfully captured> but was: <Password12_>
+	at NewEmptyJUnitTest.testPasswordMeetsComplexityRequirements(NewEmptyJUnitTest.java:25)
+

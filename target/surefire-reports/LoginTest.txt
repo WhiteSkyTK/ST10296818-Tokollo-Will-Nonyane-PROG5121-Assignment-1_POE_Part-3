@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec <<< FAILURE!
+LoginTest.testCheckPasswordComplexity()  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.setPassword(String)" because "this.login" is null
+	at LoginTest.testCheckPasswordComplexity(LoginTest.java:43)
+
+LoginTest.testCheckUserName()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Login.setUsername(String)" because "this.login" is null
+	at LoginTest.testCheckUserName(LoginTest.java:25)
+
